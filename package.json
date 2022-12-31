@@ -1,4 +1,5 @@
 {
+  "homepage": "htts://ovais09.github.io/personal-website",
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && gh-pages -d out"
+
   },
   "dependencies": {
     "@next/font": "13.1.1",
@@ -19,5 +22,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
