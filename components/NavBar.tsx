@@ -49,8 +49,7 @@ export default function NavBar() {
             `}</style>
             <nav>
                 <ul>
-                    <Link href='/' legacyBehavior><a className={pathname === '/' ? 'active' : ''}>HOME</a></Link>
-                    <Link href='/About' legacyBehavior><a className={pathname === '/about' ? 'active' : ''}>ABOUT</a></Link>
+                    <Link href='/' legacyBehavior><a className={pathname === '/' ? 'active' : ''}>ABOUT</a></Link>
                     <Link href='/education' legacyBehavior><a className={pathname === '/education' ? 'active' : ''}>EDUCATION</a></Link>
                     <Link href='/experience' legacyBehavior><a className={pathname === '/experience' ? 'active' : ''}>EXPERIENCE</a></Link>
                     <Link href='/projects' legacyBehavior><a className={pathname === '/projects' ? 'active' : ''}>PROJECTS</a></Link>

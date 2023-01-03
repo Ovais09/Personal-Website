@@ -9,12 +9,7 @@ export default function Home() {
   const [opacitySpan, setOpacitySpan] = useState(0)
   const [opacityOvais, setOpacityOvais] = useState(0)
   const [opacityOvais2, setOpacityOvais2] = useState(0)
-  const [opacityButton, setOpacityButton] = useState(0)
-  const router = useRouter()
-
-  const handleClick = () => {
-    router.push('/About')
-  }
+  
 
   //set the opacity to 1 after 1 second
   useEffect(() => {
@@ -32,10 +27,6 @@ export default function Home() {
       setOpacityOvais2(1)
     }
       , 3000)
-    setTimeout(() => {
-      setOpacityButton(1)
-    }
-      , 6000)
   }, [])
 
 
@@ -84,24 +75,6 @@ export default function Home() {
         div {
           margin-left: 60px;
         }
-        button {
-          display: inline-block;
-          margin-left: 60px;
-          margin-top: 100px;
-          margin-bottom: 100px;
-          width: 300px;
-          height: 50px;
-          background-color: rgb(248,251,254);
-          border: 2px solid black;
-          border-radius: 10px;
-          font-size: 20px;
-          font-family: 'Courier New', Courier, monospace;
-          text-align: center;
-          font-size: 36px;
-          cursor: pointer;
-          opacity: ${opacityButton};
-          transition: opacity 1s;
-        }
         button:hover {
           background-color: rgb(248,251,254);
           border: 2px solid black;
@@ -138,7 +111,6 @@ export default function Home() {
           <br />
           <p className='ovais2'>This is a website I made that showcases who I am and my skills. Feel free to look around and contact me whenever you want. My contact information can be found in the contact page.</p>
         </div>
-        <button type='button' onClick={handleClick}>DISCOVER NOW!</button>
       </section>
       <Copyright />
 
