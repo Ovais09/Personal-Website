@@ -9,7 +9,8 @@ export default function Home() {
   const [opacitySpan, setOpacitySpan] = useState(0)
   const [opacityOvais, setOpacityOvais] = useState(0)
   const [opacityOvais2, setOpacityOvais2] = useState(0)
-  
+  const [opacityContact, setOpacityContact] = useState(0)
+
 
   //set the opacity to 1 after 1 second
   useEffect(() => {
@@ -27,6 +28,10 @@ export default function Home() {
       setOpacityOvais2(1)
     }
       , 3000)
+    setTimeout(() => {
+      setOpacityContact(1)
+    }
+      , 6000)
   }, [])
 
 
@@ -44,11 +49,11 @@ export default function Home() {
          position: absolute;
          
         }
-        img {
+        #ovais-face {
           display: inline-block;
           width: auto;
           float: right;
-          margin-right: 30px;
+          margin-right: 5px;
           margin-top: 100px;          
           margin-bottom: 100px;
           border-radius: 50%;
@@ -70,7 +75,7 @@ export default function Home() {
           display: inline-block;
           margin-top: 200px;
           opacity: ${opacitySpan};
-          transition: opacity 1s;
+          transition: opacity 3s;
         }
         div {
           margin-left: 60px;
@@ -89,27 +94,60 @@ export default function Home() {
         }
         .ovais {
           opacity: ${opacityOvais};
-          transition: opacity 1s;
+          transition: opacity 2s;
         }
         .ovais2 {
           opacity: ${opacityOvais2};
-          transition: opacity 1s;
+          transition: opacity 4s;
         }
+        .contact {
+          margin-left: 0px;
+          position: absolute;
+          // border: 2px solid black;
+          margin-top: -150px; 
+          display: inline-block;         
+          padding-bottom: 100px;
+          opacity: ${opacityContact};
+          transition: opacity 5s;
+        }
+        .email {
+          margin-left: -200px;
+          position: absolute;
+          margin-top: 225px;
+        }
+        .phone {
+          margin-left: -200px;
+          position: absolute;
+          margin-top: 260px;
       `}</style>
 
       <section>
         <div>
-          <img src='/ovais-face.JPG' alt='Ovais face' height='500' />
+          <img id="ovais-face" src='/ovais-face.JPG' alt='Ovais face' height='500' />
           <span>THIS IS ME</span>
           <br />
           <br />
-
           <h1 className='ovais'>OVAIS AZEEM</h1>
           <br />
           <br />
           <br />
           <br />
-          <p className='ovais2'>This is a website I made that showcases who I am and my skills. Feel free to look around and contact me whenever you want. My contact information can be found in the contact page.</p>
+          <p className='ovais2'>I am a fourth year Software Engineering student at the University of Ottawa who is passionate about programming and web development.
+            I have worked in both the public and private sectors and I am currently seeking a COOP job for the Summer of 2023.
+            My primary programming language <br /> is JavaScript, however I am also well versed in a wide variety of programming langauges including TypeScript, Java, C#, and Python.
+            <br />
+            <br />
+            This is a website that I have created to showcase my skills and projects. Feel free to take a look around and contact me if you have any questions!
+          </p>
+          <br />
+          <div className='contact'>
+            <img src='/map.png' alt='map' height='25' width='25' />
+            <span>Ottawa, Ontario, Canada</span>
+            <img className='email' src='/email.png' alt='email' height='25' width='25' />
+            <span className='email'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ovazeem100@gmail.com</span>
+            <img className='phone' src='/telephone-call.png' alt='phone' height='25' width='25' />
+            <span className='phone'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1 (613) 413 - 5434</span>
+          </div>
         </div>
       </section>
       <Copyright />
