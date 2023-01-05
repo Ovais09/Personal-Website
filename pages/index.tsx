@@ -42,7 +42,6 @@ export default function Home() {
     <>
       <style jsx> {`
         section {
-         background-color: rgb(248,251,254);
          margin-top: -5px;
          height: auto;
          width: 100%;
@@ -79,18 +78,6 @@ export default function Home() {
         }
         div {
           margin-left: 60px;
-        }
-        button:hover {
-          background-color: rgb(248,251,254);
-          border: 2px solid black;
-          border-radius: 10px;
-          font-size: 20px;
-          font-family: 'Courier New', Courier, monospace;
-          text-align: center;
-          font-size: 36px;
-          cursor: pointer;
-          color: rgb(248,251,254);
-          background-color: black;
         }
         .ovais {
           opacity: ${opacityOvais};

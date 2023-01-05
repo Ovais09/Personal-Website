@@ -1,4 +1,4 @@
-import Copright from "../components/Copyright"
+import Copyright from "../components/Copyright"
 
 export default function Education() {
     return (
@@ -65,7 +65,7 @@ export default function Education() {
                         
                 </ul>
             </div>
-            <Copright />
+            <Copyright />
         </>
     )
 }

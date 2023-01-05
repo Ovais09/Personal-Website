@@ -10,14 +10,14 @@ export default function Contact() {
         e.preventDefault()
 
         emailjs.sendForm('service_p8p1x68', 'template_kxf055u', e.target, '7l76CUxFVJ-gRgkJk')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
         alert("Email sent successfully")
         e.target.reset()
-        
+
     }
 
 
@@ -26,7 +26,6 @@ export default function Contact() {
             <style jsx>{`
                 
                 section {
-                        background-color: rgb(248,251,254);
                         margin-top: 5px;
                         height: 100%;
                         width: 100%;
@@ -62,13 +61,13 @@ export default function Contact() {
                         cursor: pointer;
                     }
                     form {
-                        margin-left: 350px;
+                        margin-left: 550px;
                         width: 200px;                    
                     }
             `}</style>
             {/* <h1>CONTACT</h1> */}
             <section>
-                <form onSubmit= {submitEmail}>
+                <form onSubmit={submitEmail}>
                     <h1>CONTACT</h1>
                     <label htmlFor="name">Name</label>
                     <input type="text" name="name" id="name" required />
