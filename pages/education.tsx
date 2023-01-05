@@ -39,7 +39,7 @@ export default function Education() {
                     margin-top: -30px;
                 }
             `}</style>
-            <h1 id='education'>Education</h1>
+            <h1 id='education'>EDUCATION</h1>
             <h1>University of Ottawa</h1>
             <h1>Bachelor of Applied Science, Software Engineering (CO-OP) <span id='current'>2019 - Present</span> <img src = '/uottawa.jpg' alt = 'University of Ottawa'/></h1>
             <p><b>4th year student</b></p>
