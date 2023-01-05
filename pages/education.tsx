@@ -26,6 +26,7 @@ export default function Education() {
                     font-size: 30px;
                     font-weight: 400;
                     margin-left: 75px;
+                    
                 }
                 p {
                     font-weight: 400;
@@ -35,11 +36,11 @@ export default function Education() {
                     position: absolute;
                     width: 100px;
                     height: 100px;
-                    margin-left: -500px;
+                    margin-left: -300px;
                     margin-top: -30px;
                 }
             `}</style>
-            <h1 id='education'>EDUCATION</h1>
+            <h1 id='education'><b>EDUCATION</b></h1>
             <h1>University of Ottawa</h1>
             <h1>Bachelor of Applied Science, Software Engineering (CO-OP) <span id='current'>2019 - Present</span> <img src = '/uottawa.jpg' alt = 'University of Ottawa'/></h1>
             <p><b>4th year student</b></p>
