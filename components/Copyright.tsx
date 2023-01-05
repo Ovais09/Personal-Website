@@ -25,7 +25,7 @@ export default function Copright() {
                 }
             `}</style>
             <footer>
-                <p>Copright © {year} Ovais Azeem <br/> Website made using NextJS and TypeScript and hosted on Firebase</p>
+                <p>Copyright © {year} Ovais Azeem <br/> Website made using NextJS and TypeScript and hosted on Firebase</p>
                 <br/>
                 
             </footer>
