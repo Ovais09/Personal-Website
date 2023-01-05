@@ -133,8 +133,8 @@ export default function Home() {
           <br />
           <br />
           <p className='ovais2'>I am a fourth year Software Engineering student at the University of Ottawa who is passionate about programming and web development.
-            I have worked in both the public and private sectors and I am currently seeking a COOP job for the Summer of 2023.
-            My primary programming language <br /> is JavaScript, however I am also well versed in a wide variety of programming langauges including TypeScript, Java, C#, and Python.
+            I have worked in both the public and private sectors and I am currently seeking a CO-OP job for the Summer of 2023.
+            My primary programming language <br /> is JavaScript, however I am also well versed in a wide variety of programming langauges including TypeScript, Java, C#, and Python. <br /> I am expected to graduate in June 2024.
             <br />
             <br />
             This is a website that I have created to showcase my skills and projects. Feel free to take a look around and contact me if you have any questions!

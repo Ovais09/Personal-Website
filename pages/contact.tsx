@@ -57,16 +57,9 @@ export default function Contact() {
                         margin-top: 1rem;
                     }
                     button:hover {
-                        background-color: rgb(248,251,254);
-                        border: 2px solid black;
-                        border-radius: 10px;
-                        font-size: 20px;
-                        font-family: 'Courier New', Courier, monospace;
-                        text-align: center;
-                        font-size: 36px;
+                        background-color: rgb(0, 0, 0);
+                        color: rgb(255, 255, 255);
                         cursor: pointer;
-                        color: rgb(248,251,254);
-                        background-color: black;
                     }
                     form {
                         margin-left: 350px;
