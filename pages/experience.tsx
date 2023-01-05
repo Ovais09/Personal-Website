@@ -95,9 +95,9 @@ export default function Experience() {
                     <h3>Skills learned/used: (C#, ASP.NET, Jira, IIS Express Server, Visual Studio, Azure DevOps)</h3>
                     <br />
                     <ul>
-                        <li>Built a webform using the ASP.NET framework which runs on Microsoft's IIS Express Server.</li>
+                        <li>Built a webform using the ASP.NET framework which runs on Microsoft&apos;s IIS Express Server.</li>
                         <li>Utilized the Jira REST API in order to create issues on the Jira platform.</li>
-                        <li>Utilized Microsoft's Azure DevOps Server in order to store the CFIA's code. </li>
+                        <li>Utilized Microsoft&apos;s Azure DevOps Server in order to store the CFIA&apos;s code. </li>
                     </ul>
                 </div>
             </div>
