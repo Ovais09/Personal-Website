@@ -63,9 +63,9 @@ export default function Experience() {
                     <h3>Skills learned/used: (FTP, FileZilla, MS Excel, MS SharePoint, 5G, Network Towers)</h3>
                     <br />
                     <ul>
-                        <li>Downloaded files from an FTP server using Filezilla.</li>
-                        <li>Created daily GS audits usimg Microsoft Excel and uploaded them to the Encsson Sharepoint.</li>
-                        <li>Leamed about 5G, cell towers, and other networking related concepts. </li>
+                        <li>Downloaded files from an FTP server using FileZlla.</li>
+                        <li>Created daily GS audits usimg Microsoft Excel and uploaded them to the Ericsson SharePoint.</li>
+                        <li>Learned about 5G, cell towers, and other networking related concepts. </li>
                     </ul>
                 </div>
             </div>
