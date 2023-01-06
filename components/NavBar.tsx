@@ -53,7 +53,7 @@ export default function NavBar() {
                     <Link href='/education' legacyBehavior><a className={pathname === '/education' ? 'active' : ''}>EDUCATION</a></Link>
                     <Link href='/experience' legacyBehavior><a className={pathname === '/experience' ? 'active' : ''}>EXPERIENCE</a></Link>
                     <Link href='/skills' legacyBehavior><a className={pathname === '/skills' ? 'active' : ''}>SKILLS</a></Link>
-                    <Link href='/projects' legacyBehavior><a className={pathname === '/projects' ? 'active' : ''}>PROJECTS</a></Link>
+                    {/* <Link href='/projects' legacyBehavior><a className={pathname === '/projects' ? 'active' : ''}>PROJECTS</a></Link> */}
                     <Link href='/contact' legacyBehavior><a className={pathname === '/contact' ? 'active' : ''}>CONTACT</a></Link>
                     <Link href='https://www.linkedin.com/in/ovais-azeem-562829197/'> <img src='linkedin.png' alt='linkedin' height = '25' width='25' /> </Link>
                     <Link href='https://github.com/Ovais09'><img src = 'github-sign.png' height='25' width='25' alt = 'github'/></Link>
