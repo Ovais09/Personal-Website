@@ -4,7 +4,7 @@ import Copyright from '../components/Copyright';
 export default function Skills() {
     return (
         <>
-            <style jsx > {`
+            <style jsx  > {`
                 #skills {
                     margin-top: 70px;
                     font-size: 50px;
