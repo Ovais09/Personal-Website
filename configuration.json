@@ -1,0 +1,9 @@
+{
+    "appId": "com.example.myapp",
+    "productName": "My App",
+    "files": ["build/**/*"],
+    "directories": {
+      "buildResources": "assets"
+    }
+  }
+  
